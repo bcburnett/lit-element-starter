@@ -25,6 +25,10 @@ static get styles() {
     `
   }
 
+stateChanged(state) {
+console.log(state);
+}
+
 }
 
 customElements.define('bcb-class',BcbClass)
